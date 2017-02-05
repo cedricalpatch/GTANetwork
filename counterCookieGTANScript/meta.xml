@@ -1,0 +1,17 @@
+﻿<meta>
+  <info name="CounterCookieGTANScript" description="Handles everything for the CounterCookie RP server" />
+  <assembly ref="System.Data.dll"/>
+  <assembly ref="MySql.Data.dll"/>
+
+  <script src="/Client/EntityDataToHUD.js" type="client" lang="javascript" />
+  
+  <script src="HeadScript.cs" type="server" lang="csharp" />
+  <script src="/Database/Database.cs" type="server" lang="csharp" />
+  <script src="/Jobs/JobHandler.cs" type="server" lang="csharp" />
+  <script src="/Jobs/Pilot.cs" type="server" lang="csharp" />
+  <script src="/Players/Player.cs" type="server" lang="csharp" />
+  <script src="/Players/PlayerHandler.cs" type="server" lang="csharp" />
+  <script src="/Vehicle/PilotVehicle.cs" type="server" lang="csharp" />
+  <script src="/Vehicle/Vehicle.cs" type="server" lang="csharp" />
+  <script src="/Vehicle/VehicleHandler.cs" type="server" lang="csharp" />
+</meta>
